@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NightBlade Privacy</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #00aaff, #0077dd);
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
 
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Under Construction</h1>
+  <p>Check back later!</p>
+  <p><a href="http://www.nightbladebot.com">Back to Home Page</a></p>
+</body>
+</html>
