@@ -73,11 +73,30 @@
         </div>
       </div>
       <div class="col-md-6">
-        <img class="img-fluid w-50" src="https://cdn.discordapp.com/attachments/852607074172797019/1127998261463109762/NIghtBlade_Auction_Icon.png" alt="">
+        <img class="img-fluid w-50 animate-bounce" src="https://cdn.discordapp.com/attachments/852607074172797019/1127998261463109762/NIghtBlade_Auction_Icon.png" alt="">
       </div>
     </div>
   </div>
+
+  <style>
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    .animate-bounce {
+      animation: bounce 1s infinite;
+    }
+  </style>
 </section>
+
 
 
 
