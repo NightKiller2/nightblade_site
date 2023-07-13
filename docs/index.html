@@ -63,7 +63,7 @@
 
 <section class="bg-dark text-light text-center py-5">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row">
       <div class="col-md-6">
         <div class="text-md-start ps-md-5">
           <h1><span class="text-info">NightBlade</span> Bot</h1>
@@ -72,7 +72,7 @@
           <a class="m-2 btn btn-light btn-hover" href="https://discord.gg/FZZJsDqrST" target="_blank">Support Server</a>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mt-md-0 mt-5">
         <img class="img-fluid w-50 animate-bounce" src="https://cdn.discordapp.com/attachments/852607074172797019/1128888057769238698/nightbladewebsitelogo.png" alt="">
       </div>
     </div>
@@ -104,9 +104,17 @@
     .btn-hover:hover {
       transform: scale(1.1);
     }
+
+    @media (max-width: 767px) {
+      .col-md-6 {
+        margin-bottom: 20px;
+      }
+      .mt-md-0 {
+        margin-top: 0;
+      }
+    }
   </style>
 </section>
-
 
     <!-- Features -->
 
@@ -115,7 +123,7 @@
     <h2 class="text-center mb-4">Features</h2>
     <div class="row text-center d-flex justify-content-center">
       <div class="col-sm">
-        <div class="card bg-dark text-light mb-3 box-hover">
+        <div class="card bg-dark text-light mb-3 box-hover" style="min-height: 300px;">
           <div class="h1 mt-3">
             <i class="bi bi-clock-history"></i>
           </div>
@@ -126,7 +134,7 @@
         </div>
       </div>
       <div class="col-sm">
-        <div class="card bg-dark text-light mb-3 box-hover">
+        <div class="card bg-dark text-light mb-3 box-hover" style="min-height: 300px;">
           <div class="h1 mt-3">
             <i class="bi bi-capslock-fill"></i>
           </div>
@@ -137,7 +145,7 @@
         </div>
       </div>
       <div class="col-sm">
-        <div class="card bg-dark text-light mb-3 entertainment-card box-hover">
+        <div class="card bg-dark text-light mb-3 entertainment-card box-hover" style="min-height: 300px;">
           <div class="h1 mt-3">
             <i class="bi bi-folder2-open"></i>
           </div>
@@ -159,9 +167,15 @@
     .box-hover:hover {
       transform: scale(1.1);
     }
+
+    @media (max-width: 576px) {
+      .box-hover {
+        transform: none;
+        transition: none;
+      }
+    }
   </style>
 </section>
-
 
     <!-- Statics -->
 
@@ -186,6 +200,15 @@
       </div>
     </div>
   </div>
+
+  <style>
+    @media screen and (min-width: 576px) and (max-width: 767px) {
+      .justify-content-center.text-center {
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  </style>
 </section>
 
 
